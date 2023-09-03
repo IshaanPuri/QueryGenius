@@ -7,7 +7,7 @@ const app: Application = express()
 app.use(cors())
 app.use(express.json())
 
-const API_KEY: string = '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';
+const API_KEY: string = ':)';
 
 const ai = new OpenAI({
     apiKey: API_KEY // This is also the default, can be omitted
